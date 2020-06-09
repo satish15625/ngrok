@@ -1,5 +1,8 @@
-#!/bin/sh
+#!/bin/bash
+echo Script to create a specific-directory on all subfolders in a parent-directory
 
-echo This is the output from the script
+path=/home/satish/Downloads/Docker
 
-echo My name is satish
+cd $path
+  mkdir Folder-name-to-be-created1
+
